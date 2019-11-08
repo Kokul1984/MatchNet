@@ -3,8 +3,28 @@
 
 
 ## Abstract 
-Visual  tracking  frameworks  employing  ConvolutionalNeural Networks (CNNs) have shown state-of-the-art perfor-mance due to their hierarchical feature representation. Whileclassification and update based deep neural net tracking haveshown  good  performance  in  terms  of  accuracy,  they  havepoor  tracking  speed.   On  the  other  hand,  recent  matchingbased  techniques  using  CNNs  show  higher  than  real-timespeed  in  tracking  but  this  speed  is  achieved  at  a  consider-ably  lower  accuracy.   To  successfully  manage  the  trade-offbetween accuracy and speed, we propose a novel CNN archi-tecture for visual tracking.  We achieve this trade-off balanceby  using  an  approach  in  which  consecutive  similar  framesare processed with a similarity matching technique, and dis-similar  frames  are  processed  with  a  classification  approachwithin the CNN architecture. The tracking speed is improvedby  avoiding  unnecessary  model  updates  through  the  mea-surement  of  similarity  between  adjacent  frames,  while  theaccuracy is maintained by adopting a classification approachwhen  needed,  with  deeper  level  features.   Extensive  evalu-ation  performed  on  a  publicly  available  benchmark  datasetdemonstrates our proposed tracker shows competitive perfor-mance while maintaining near real-time speed.
-
+Visual tracking frameworks employing Convolutional
+Neural Networks (CNNs) have shown state-of-the-art performance
+due to their hierarchical feature representation. While
+classification and update based deep neural net tracking have
+shown good performance in terms of accuracy, they have
+poor tracking speed. On the other hand, recent matching
+based techniques using CNNs show higher than real-time
+speed in tracking but this speed is achieved at a considerably
+lower accuracy. To successfully manage the trade-off
+between accuracy and speed, we propose a novel CNN architecture
+for visual tracking. We achieve this trade-off balance
+by using an approach in which consecutive similar frames
+are processed with a similarity matching technique, and dissimilar
+frames are processed with a classification approach
+within the CNN architecture. The tracking speed is improved
+by avoiding unnecessary model updates through the measurement
+of similarity between adjacent frames, while the
+accuracy is maintained by adopting a classification approach
+when needed, with deeper level features. Extensive evaluation
+performed on a publicly available benchmark dataset
+demonstrates our proposed tracker shows competitive performance
+while maintaining near real-time speed.
 ## Paper link
 [Paper](https://ieeexplore.ieee.org/abstract/document/8451035)
 [ResearchGate](https://ieeexplore.ieee.org/abstract/document/8451035)
